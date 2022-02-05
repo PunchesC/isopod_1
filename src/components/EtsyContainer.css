@@ -1,7 +1,6 @@
 .EtsyContainer{
-  border:red 5px solid;
-  width:50%;
-  height: 50%;
+ 
+  text-align: center;
   
 
 }
@@ -11,4 +10,8 @@
   height: 50%;
   
 
+}
+.EtsyContainer img:hover{
+  width:60%;
+  height: 60%;
 }

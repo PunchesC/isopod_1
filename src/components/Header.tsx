@@ -1,10 +1,10 @@
-
+import './Header.css'
 
 
 function Header() {
   return (
     <div className="Header">
-     Ceramics by Olivia
+     Ceramics by Olivia Hoffman
     </div>
   );
 }

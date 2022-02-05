@@ -1,5 +1,8 @@
 .InfoCard{
-  width:50%;
-  height: 50%;
-  border:blue 5px solid;
+  height:100%;
+ 
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

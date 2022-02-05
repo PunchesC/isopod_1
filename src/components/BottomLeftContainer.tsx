@@ -1,11 +1,12 @@
 import './BottomLeftContainer.css';
-import PhotoMug from '../assets/Oliviavase1.png'
+import PhotoBowl from '../assets/bowl.jpg'
+import PhotoVase from '../assets/Oliviavase1.jpg'
 
 function BottomLeftContainer(){
   return(
     <div className="BottomLeftContainer">
-      {/* <img src={PhotoMug}></img> */}
-      BottomLeft
+      <img src={PhotoVase}></img>
+      
     </div>
   )
 }

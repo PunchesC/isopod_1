@@ -1,7 +1,6 @@
 .BottomLeftContainer{
-  width:50%;
-  height: 50%;
-  border:green 5px solid;
+  text-align: center;
+ 
 }
 
 .BottomLeftContainer img{

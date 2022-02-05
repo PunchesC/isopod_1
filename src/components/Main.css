@@ -23,11 +23,39 @@
   border-radius: 15px;
   padding:30px;
 }
+.container1:hover{
+  background:none;
+  border-radius: 15px;
+  padding:30px;
+  color:white;
+}
 .container2{
   grid-area: EtsyContainer;
   background-color:rgba(211,211,211,0.3);
   border-radius: 30px;
   padding:30px;
+}
+.container2:hover{
+  grid-area: EtsyContainer;
+  background:none;
+  border-radius: 15px;
+  padding:30px;
+  color:white;
+  
+}
+.container3:hover{
+  grid-area: BottomLeftContainer;
+  background:none;
+  border-radius: 15px;
+  padding:30px;
+  color:white;
+}
+.container4:hover{
+  grid-area: SocialMediaContainer;
+  background:none;
+  border-radius: 15px;
+  padding:30px;
+  color:white;
 }
 .container3{
   grid-area: BottomLeftContainer;

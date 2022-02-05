@@ -3,10 +3,10 @@ import './SocialMediaContainer.css';
 function SocialMediaContainer(){
   return(
     <div className="SocialMediaContainer">
-      <h2>Social Media</h2>
+      <h2>Connect with me</h2>
       <nav>
         <ul>
-          <li>Intragram</li>
+          <li><a href="https://www.instagram.com/olivia_hoffman/?hl=en">Intragram</a></li>
           <li>Email</li>
           <li>Maxs South Seas Hideaway</li>
         </ul>

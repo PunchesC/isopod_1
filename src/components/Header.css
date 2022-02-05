@@ -1,3 +1,21 @@
 .Header{
   background-color: #FBF8F7;
+  height:30px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header ul{
+  display:flex;
+  justify-content: space-around;
+  margin:20px;
+  padding:20px;
+  
+}
+
+.Header li{
+  margin:20px;
+  padding:20px;
+  list-style-type: none;
 }

@@ -1,0 +1,10 @@
+.BottomLeftContainer{
+  width:50%;
+  height: 50%;
+  border:green 5px solid;
+}
+
+.BottomLeftContainer img{
+  width:50%;
+  height: 50%;
+}

@@ -1,0 +1,32 @@
+.Main{
+  width:100vw;
+  height: 100%;
+  position:absolute;
+  /* Create the parallax scrolling effect */
+  background-image: url('../assets/Oliviavase1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:grid;
+  grid-template-areas: 
+  'InfoCard EtsyContainer'
+  'BottomLeftContainer SocialMediaContainer';
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  grid-gap:10px;
+
+}
+
+.container1{
+  grid-area: InfoCard;
+}
+.container2{
+  grid-area: EtsyContainer;
+}
+.container3{
+  grid-area: BottomLeftContainer;
+}
+.container4{
+  grid-area: SocialMediaContainer;
+}
